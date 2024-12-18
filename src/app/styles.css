@@ -1,0 +1,172 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background color */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Container for the application */
+  .container {
+    max-width: 800px; /* Center the content */
+    margin: 0 auto; 
+    background: #fff; /* White background for the main area */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #333; /* Dark text color */
+    text-align: center; 
+  }
+  
+  /* Form styles */
+  form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; 
+    margin-bottom: 20px; 
+  }
+  
+  /* Input and select styles */
+  input[type="text"],
+  select {
+    padding: 10px; 
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px; 
+    margin-top: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text */
+    font-size: 16px; 
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%; 
+    border-collapse: collapse; /* Remove spacing between borders */
+    margin-top: 20px; 
+  }
+  
+  th, td {
+    padding: 10px; 
+    text-align: left; 
+    border-bottom: 1px solid #ccc; /* Light border for table rows */
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+  }
+
+  /* Styles for PaymentForm Component */
+.payment-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.payment-form h3, .payment-form h4 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.charge-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.charge-group label {
+  flex-basis: 100%;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.charge-group input {
+  flex: 1;
+}
+
+.add-charge-btn, .submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.3s;
+}
+
+.add-charge-btn:hover, .submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-charge-btn {
+  background-color: #28a745;
+}
+
+.add-charge-btn:hover {
+  background-color: #218838;
+}
+
+.submit-btn {
+  background-color: #007bff;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+  

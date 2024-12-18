@@ -1,0 +1,9 @@
+{
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 1200,
+  "bracketSpacing": true,
+  "endOfLine": "lf"
+}
